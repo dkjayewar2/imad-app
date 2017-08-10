@@ -31,7 +31,8 @@ var articleone= {
              This is the content for my second article.
        </p>`
  },
-    'articlethree': { title:'Article third I Dinesh Jayewar',
+    'articlethree': { 
+    title:'Article third I Dinesh Jayewar',
     heading: 'Artcile third',
     date: 'sept 15, 2016',
     content:`
@@ -53,8 +54,8 @@ function createtemplate (data) {
                  <title>
                       ${title} 
                  </title>
-                    <meta name="viewport" content="width=device=width, initial-scale=1" />
-                    <link href="/ui/style.css" rel="stylesheet" /> 
+                    <meta name="viewport" content="width=device=width, initial-scale=1/>
+                    <link href="/ui/style.css" rel="stylesheet"/> 
                 </head>
             <body>
                   <div class="container">
