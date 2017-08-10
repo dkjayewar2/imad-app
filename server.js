@@ -93,6 +93,9 @@ app.get('/:articleName', function (req, res) {
 
 app.get('/ui/style.css',function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+  //articleName == article-two
+  //articles[articleName] == {} object has been rendered for article-two
+  //paragraph[12345] = followarticlepath@hasura./ed
 });
 
 app.get('/ui/madi.png', function (req, res) {
@@ -104,3 +107,4 @@ var port = 8080; // Use 8080 only for local development if you already have apac
 app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
+app.client 8080.9090,instagfunction () refurb;
